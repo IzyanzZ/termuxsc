@@ -1,7 +1,19 @@
 import os,sys,time
 
+x = 'Username'
+y = 'Password'
+
 def b():
   os.system("clear")
+
+def login():
+  b()
+  user = input("Username 》 ")
+  passw = input("Password 》 ")
+  if user == x and passw == y:
+    print("Login Succes!")
+    time.sleep(2)
+    sys.exit
 
 def jalan(kata):
   for e in kata:
@@ -21,6 +33,8 @@ def ins():
   print(" [~] ")
   print(" [+] 2. More Tools (etc)")
 
+b()
+login()
 b()
 menu()
 ins()

@@ -3,38 +3,6 @@ import os,sys,time
 x = 'Username'
 y = 'Password'
 
-def mtk():
-  print("[1] Pertambahan\n[2] Pengurangan\n[3] Perkalian\n[4] Pembagian")
-  a = input("Pilih (1-4): ")
-  if a == 1:
-    ang = input("Angka 1: ")
-    ang2 = input("Angka 2: ")
-    total = ang + ang2
-    print("Hasil Pertambahan Tadi Adalah", total )
-    os.system("index.py")
-    time.sleep(3)
-  if a == 2:
-    anng = input("Angka 1: ")
-    anng2 = input("Angka 2: ")
-    total = anng - anng2
-    print("Hasil Pengurangan Tadi Adalah", total )
-    os.system("index.py")
-    time.sleep(3)
-  if a == 3:
-    annng = input("Angka 1: ")
-    annng2 = input("Angka 2: ")
-    total = annng * annng2
-    print("Hasil Perkalian Tadi Adalah", total )
-    os.system("index.py")
-    time.sleep(3)
-  if a == 1:
-    annnng = input("Angka 1: ")
-    annnng2 = input("Angka 2: ")
-    total = annnng + annnng2
-    print("Hasil Pembagian Tadi Adalah", total )
-    os.system("index.py")
-    time.sleep(3)
-
 def b():
   os.system("clear")
 
@@ -61,7 +29,7 @@ def menu():
   
 def ins():
   print(" ")
-  print(" [+] 1. Kalkulator")
+  print(" [+] 1. Keluar 🚪")
   print(" [~] ")
   print(" [+] 2. More Tools (etc)")
 
@@ -73,4 +41,10 @@ ins()
 jalan("  Pilih tools terlebih dahulu!  ".center(22))
 pil = input("Pilih (1/2): ")
 if pil == 1:
-  mtk()
+  b()
+  print(" [•] ~~~~~~~~~~~~~~~~~ ")
+  print(" Keluar Dari Tool!")
+  time.sleep(5)
+elif pil == 2:
+  os.system("pkg install git")
+  os.system("git clone")

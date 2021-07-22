@@ -39,8 +39,8 @@ b()
 menu()
 ins()
 jalan("  Pilih tools terlebih dahulu!  ".center(22))
-in = input("Pilih (1/2): ")
-if in == 1:
+pil = input("Pilih (1/2): ")
+if pil == 1:
   print("[1] Pertambahan\n[2] Pengurangan\n[3] Perkalian\n[4] Pembagian")
   a = input("Pilih (1-4): ")
   if a == 1:

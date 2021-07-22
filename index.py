@@ -20,13 +20,8 @@ def ins():
   print(" [+] 1. Kalkulator")
   print(" [~] ")
   print(" [+] 2. More Tools (etc)")
-  
+
 b()
-i = input ("Are you sure to use this tools? (Y/n)")
-if i == n:
-  print ("Keluar dsri tools!")
-elif i == y:
-  b()
-  menu()
-  ins()
-  jalan("Pilih tools terlebih dahulu!".center(44))
+menu()
+ins()
+jalan("Pilih tools terlebih dahulu!".center(44))

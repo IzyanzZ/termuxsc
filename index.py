@@ -73,3 +73,4 @@ ins()
 jalan("  Pilih tools terlebih dahulu!  ".center(22))
 pil = input("Pilih (1/2): ")
 if pil == 1:
+  mtk()
